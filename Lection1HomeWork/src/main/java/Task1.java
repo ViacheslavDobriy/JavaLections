@@ -10,9 +10,8 @@ public class Task1 {
 
     static int GettingNumber(){
         Scanner iScanner = new Scanner(System.in);
-        System.out.printf("Insert ratio of the polynomial: ");
-        int userNumber = iScanner.nextInt();
-        return userNumber;
+        System.out.println("Insert ratio of the polynomial: ");
+        return iScanner.nextInt();
     }
 
     public static void main(String[] args) {
