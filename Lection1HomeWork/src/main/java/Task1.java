@@ -28,9 +28,28 @@ public class Task1 {
         return ArrayOfRatios;
     }
 
+    static String ResultPolynomial(int[] generatedArray) {
+        String resultString = "";
+        for (int i = 0; i < generatedArray.length; i++) {
+            if (i == 0) {
+                resultString = resultString + generatedArray[i] + "*x^" + (generatedArray.length - i - 1);
+            } else {
+                if (i == generatedArray.length - 1) {
+                    resultString = resultString + " + " + generatedArray[i];
+                } else {
+                    resultString = resultString + " + " + generatedArray[i] + "*x^" + (generatedArray.length - i - 1);
+                }
+            }
+        }
+        resultString = resultString + " = 0";
+        return resultString;
+    }
+
     public static void main(String[] args) {
         int userNumber = GettingNumber();
         System.out.printf("%d\n", userNumber);
-        System.out.println(Arrays.toString(CreatingArrayOfRatios(userNumber)));
+        int[] ArrayOfRatios = CreatingArrayOfRatios(userNumber);
+        System.out.println(Arrays.toString(ArrayOfRatios));
+        System.out.println(ResultPolynomial(ArrayOfRatios));
     }
 }
