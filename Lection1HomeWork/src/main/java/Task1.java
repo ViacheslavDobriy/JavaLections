@@ -7,13 +7,19 @@
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Random;
-
 public class Task1 {
-
-    static int GettingNumber(){
+    static String GettingLine(){
         Scanner iScanner = new Scanner(System.in);
         System.out.println("Insert ratio of the polynomial: ");
-        return iScanner.nextInt();
+        return iScanner.nextLine();
+    }
+
+    static boolean isCorrect(String str){
+        try {
+            return Integer.parseInt(str) > 1;
+        } catch (NumberFormatException e) {
+            return false;
+        }
     }
 
     static int[] CreatingArrayOfRatios(int UserNumber){
@@ -46,9 +52,14 @@ public class Task1 {
     }
 
     public static void main(String[] args) {
-        int userNumber = GettingNumber();
-        System.out.printf("%d\n", userNumber);
-        int[] ArrayOfRatios = CreatingArrayOfRatios(userNumber);
+        int ValidateNumber;
+        String userNumber = GettingLine();
+        while (!isCorrect(userNumber)) {
+            userNumber = GettingLine();
+        }
+        ValidateNumber = Integer.valueOf(userNumber);
+        System.out.printf("%s\n", userNumber);
+        int[] ArrayOfRatios = CreatingArrayOfRatios(ValidateNumber);
         System.out.println(Arrays.toString(ArrayOfRatios));
         System.out.println(ResultPolynomial(ArrayOfRatios));
     }
