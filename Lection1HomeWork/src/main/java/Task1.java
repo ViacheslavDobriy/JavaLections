@@ -24,10 +24,15 @@ public class Task1 {
 
     static int[] CreatingArrayOfRatios(int UserNumber){
         int[] ArrayOfRatios = new int[UserNumber+1];
+        int[] ArrayOfSymbols = new int[UserNumber+1];
         int count = 0;
         Random rnd = new Random(System.currentTimeMillis());
         while (UserNumber>=0){
             ArrayOfRatios[count] = rnd.nextInt(101);
+            ArrayOfSymbols[count] = rnd.nextInt(2);
+            if(ArrayOfSymbols[count] == 0){
+                ArrayOfRatios[count] = -ArrayOfRatios[count];
+            }
             count++;
             UserNumber--;
         }
@@ -40,10 +45,29 @@ public class Task1 {
             if (i == 0) {
                 resultString = resultString + generatedArray[i] + "*x^" + (generatedArray.length - i - 1);
             } else {
-                if (i == generatedArray.length - 1) {
-                    resultString = resultString + " + " + generatedArray[i];
+                if (i == generatedArray.length - 2) {
+                    if (generatedArray[i]>0) {
+                        resultString = resultString + " + " + generatedArray[i] + "*x";
+                    }
+                    else{
+                        resultString = resultString + " - " + -generatedArray[i] + "*x";
+                    }
+                }
+                else{
+                    if (i == generatedArray.length - 1) {
+                        if (generatedArray[i]>0) {
+                            resultString = resultString + " + " + generatedArray[i];
+                        }
+                        else{
+                            resultString = resultString + " - " + -generatedArray[i];
+                        }
                 } else {
-                    resultString = resultString + " + " + generatedArray[i] + "*x^" + (generatedArray.length - i - 1);
+                        if (generatedArray[i] > 0) {
+                            resultString = resultString + " + " + generatedArray[i] + "*x^" + (generatedArray.length - i - 1);
+                        } else {
+                            resultString = resultString + " - " + -generatedArray[i] + "*x^" + (generatedArray.length - i - 1);
+                        }
+                    }
                 }
             }
         }
