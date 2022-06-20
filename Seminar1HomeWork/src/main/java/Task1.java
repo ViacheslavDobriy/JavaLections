@@ -23,10 +23,17 @@ public class Task1 {
         return false;
     }
 
+    static int TriangularNumber(String checkedNumber){
+        int intNumber = Integer.parseInt(checkedNumber);
+        return intNumber/2*(intNumber+1);
+    }
+
     public static void main(String[] args) {
-        while(!isCorrect(GetNumber())){
+        String userNumber = GetNumber();
+        while(!isCorrect(userNumber)){
             System.out.println("This is not correct, try again!");
+            userNumber = GetNumber();
         }
-            System.out.println("This is correct");
+            System.out.printf("%d - is your triangular number", TriangularNumber(userNumber));
     }
 }
