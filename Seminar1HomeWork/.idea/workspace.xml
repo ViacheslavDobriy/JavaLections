@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98f24a9b-cc98-4970-874c-5ffc0e7d2ecd" name="Changes" comment="Saved changing">
+    <list default="true" id="98f24a9b-cc98-4970-874c-5ffc0e7d2ecd" name="Changes" comment="Now program is working without mistakes. Before method Triangular round value and result was not correct. I used float and math.round() to fix it.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Task1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Task1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Task2">
     <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task1" />
       <module name="Seminar1HomeWork" />
@@ -47,8 +46,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task2" />
+      <module name="Seminar1HomeWork" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task2" />
         <item itemvalue="Application.Task1" />
       </list>
     </recent_temporary>
@@ -97,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655706503584</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Now program is working without mistakes. Before method Triangular round value and result was not correct. I used float and math.round() to fix it.">
+      <created>1655835236825</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655835236825</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +131,7 @@
     <MESSAGE value="Added method isCorrect for checking inserted string." />
     <MESSAGE value="Added the last method for creating triangular number. Method main is working well." />
     <MESSAGE value="Saved changing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Saved changing" />
+    <MESSAGE value="Now program is working without mistakes. Before method Triangular round value and result was not correct. I used float and math.round() to fix it." />
+    <option name="LAST_COMMIT_MESSAGE" value="Now program is working without mistakes. Before method Triangular round value and result was not correct. I used float and math.round() to fix it." />
   </component>
 </project>
