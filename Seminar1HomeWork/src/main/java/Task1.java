@@ -24,8 +24,8 @@ public class Task1 {
     }
 
     static int TriangularNumber(String checkedNumber){
-        int intNumber = Integer.parseInt(checkedNumber);
-        return intNumber/2*(intNumber+1);
+        float intNumber = Float.parseFloat(checkedNumber);
+        return Math.round(intNumber/2*(intNumber+1));
     }
 
     public static void main(String[] args) {
@@ -34,6 +34,7 @@ public class Task1 {
             System.out.println("This is not correct, try again!");
             userNumber = GetNumber();
         }
+
             System.out.printf("%d - is your triangular number", TriangularNumber(userNumber));
     }
 }

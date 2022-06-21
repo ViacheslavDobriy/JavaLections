@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98f24a9b-cc98-4970-874c-5ffc0e7d2ecd" name="Changes" comment="Added the last method for creating triangular number. Method main is working well." />
+    <list default="true" id="98f24a9b-cc98-4970-874c-5ffc0e7d2ecd" name="Changes" comment="Saved changing">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Task1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Task1.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,12 +33,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task1" />
@@ -86,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655706183329</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Saved changing">
+      <created>1655706503584</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655706503584</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,6 +116,7 @@
     <MESSAGE value="Added method GetNumber() for receiving input number from user." />
     <MESSAGE value="Added method isCorrect for checking inserted string." />
     <MESSAGE value="Added the last method for creating triangular number. Method main is working well." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the last method for creating triangular number. Method main is working well." />
+    <MESSAGE value="Saved changing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Saved changing" />
   </component>
 </project>
