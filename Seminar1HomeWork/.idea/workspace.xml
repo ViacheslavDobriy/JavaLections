@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98f24a9b-cc98-4970-874c-5ffc0e7d2ecd" name="Changes" comment="Added method CheckDivision, which check quotient of division random number on sum of digits this number. Main is working well. Home work is done. There is possible to change maximum of generated number in method GettingRandomNumber, if it's needed." />
+    <list default="true" id="98f24a9b-cc98-4970-874c-5ffc0e7d2ecd" name="Changes" comment="Workspace is updated." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +35,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Task2">
+  <component name="RunManager" selected="Application.Task1">
     <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task1" />
       <module name="Seminar1HomeWork" />
@@ -52,8 +52,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task2" />
         <item itemvalue="Application.Task1" />
+        <item itemvalue="Application.Task2" />
       </list>
     </recent_temporary>
   </component>
